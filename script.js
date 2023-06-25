@@ -2,6 +2,13 @@ window.promises = [];
 
 // Do not change the code above this
 // add your promises to the array `promises`
+const promises = [
+  createPromise(1, 5),
+  createPromise(1, 5),
+  createPromise(1, 5),
+  createPromise(1, 5),
+  createPromise(1, 5)
+];
  function getRandomTime(min, max) {
        const randomTime = Math.floor(Math.random() * (max - min + 1) + min) * 1000;
   return new Promise((resolve) => {
